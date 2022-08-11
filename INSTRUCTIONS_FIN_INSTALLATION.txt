@@ -1,0 +1,52 @@
+***INSTRUCTIONS D'INSTALLATION*** (English follow)
+
+Pour que le logiciel puisse fonctionner sur Windows, il est nécessaire de modifier
+les variables d'environnement du chemin "Path" pour permettre l'accès à MinGW pour
+l'ouverture de la fenêtre et à SDL pour l'image.
+
+*Les variables d'environnement se trouvent aisément en tapant "variable d'environnement"
+dans la barre de recherche Windows de l'ordinateur. Si jamais vous avez de la difficulté
+à les trouver, elles sont dans les "paramètres système avancés".*
+
+ÉTAPE 1
+Placer le dossier de jeu à l'endroit où vous prévoyez l'utiliser,
+puis allez dans le dossier de jeu, faite un clic droit et allez dans propriété
+pour voir le chemin. Ajoutez à ce chemin de base le chemin vers le dossier
+"bin" se trouvant dans SDL2 soit "SonoScript_Windows32bitV1\SDL2\i686-w64-mingw32\bin"
+
+(Exemple si le dossier est sur le bureau)
+C:\Utilisateur\Propriétaire\Bureau\SonoScript_Windows32bitV1\SDL2\i686-w64-mingw32\bin
+
+ÉTAPE 2
+Modifier la variable d'environnement "Path" en y ajoutant un nouveau chemin
+(celui qui vient d'être défini).
+
+*Attention si vous renommez le dossier du jeu, il faudra également changer son nom
+dans le chemin vers le dossier. Si vous le déplacer, il faudra réajuster le chemin.*
+
+
+***INSTRUCTIONS FOR INSTALLATION***
+
+To make the game work on Windows, environment variable "Path" must be modified
+as to permit access to MinGW and to SDL which open and present the screen of
+the game.
+
+*Environment variable are easily found by taping "environment variable" in your
+computer search bar. If you have difficulty finding them, they are part of the
+"advanced system parameters".*
+
+STEP 1
+Place the file of the game where you will use it. Go in the main file of the game.
+Click right and go in "proprieties" to find the file path. Add to this file path
+the rest of the file path needed to access the file "bin" in SDL2 which is:
+"SonoScript_Windows32bitV1\SDL2\i686-w64-mingw32\bin"
+
+(Example if you place the game file on the desktop)
+C:\User\Name\Desktop\SonoScript_Windows32bitV1\SDL2\i686-w64-mingw32\bin
+
+STEP 2
+Modify the environment variable "Path" by adding the file path that
+you just defined.
+
+*Warning! If you rename a file or if you change the emplacement of
+the file you will have to do those step again.*
