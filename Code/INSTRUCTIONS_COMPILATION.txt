@@ -1,0 +1,51 @@
+***INSTRUCTIONS DE COMPILATION*** (English will follow)
+
+Tout d'abord il est important de savoir que le code de ce jeu est sous licence GPL2.
+Une copie de la licence est disponible dans le dossier "Licence" du jeu.
+
+Pour faire des modifications au code du jeu, il est nécessaire de mettre tous les fichiers
+.h et .cpp se trouvant dans le dossier "Code" dans le dossier principal où sera effectuée
+la compilation.
+
+Ouvrez l'invite de commande en mode administrateur.
+
+Indiquez la racine du chemin pour se rendre au dossier principal du jeu où a lieu
+la compilation grâce à la commande suivante à compléter : cd INSEREZ_CHEMIN_ICI
+
+La commande utilisée pour compiler les fichiers dans leur état actuel est la suivante :
+
+g++ -g SonoScript_Main.cpp evenementSouris.cpp fonctionsRenderer.cpp saveEcrit.cpp sonTortue.cpp
+-IC:\Users\Propriétaire\Desktop\SonoScript_Windows32bitV1\SDL2\i686-w64-mingw32\include
+-LC:\Users\Propriétaire\Desktop\SonoScript_Windows32bitV1\SDL2\i686-w64-mingw32\lib
+-lwinmm -lSDL2main -lSDL2 -lSDL2_image -o SonoScript.exe
+
+*La racine du chemin vers le dossier devra bien entendue être modifiée. Pour la trouver,
+il suffit d'aller dans le dossier du jeu et de faire un clic droit pour trouver le chemin
+dans "propriétés". Il faut mettre la commande sur une seule ligne. Les sauts de ligne
+présent dans ce fichier texte ne sont là que pour favoriser la lecture.*
+
+
+***INSTRUCTIONS FOR COMPILATION***
+
+This game is under the license GLP2. A copy of it is in the "Licence" file of this game.
+It is also available at : "https://www.gnu.org/licenses/old-licenses/gpl-2.0.fr.html#SEC3"
+
+To modify the code of the game, put every .h and .cpp file currently in the "Code" file
+in the main file of the game where the compilation will be effectuated.
+
+Open the Command prompt in administrator mode.
+
+Indicate the file path to access the main file of the game where the compilation will
+be effectuated by completing the following command: cd INSERT_FILE_PATH
+
+The command to compile the files in their actual form is the following :
+
+g++ -g SonoScript_Main.cpp evenementSouris.cpp fonctionsRenderer.cpp saveEcrit.cpp sonTortue.cpp
+-IC:\Users\Propriétaire\Desktop\SonoScript_Windows32bitV1\SDL2\i686-w64-mingw32\include
+-LC:\Users\Propriétaire\Desktop\SonoScript_Windows32bitV1\SDL2\i686-w64-mingw32\lib
+-lwinmm -lSDL2main -lSDL2 -lSDL2_image -o SonoScript.exe
+
+*Of course the file path to access the main file of the game must be modified to match
+the file path of your computer. You can find it by doing a right click in the main file
+of the game and consulting the "Properties". The command must be put on one line.
+Skipping a line was only done to make it easier to read the entierty of the command.*
