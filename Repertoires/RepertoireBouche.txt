@@ -1,0 +1,13 @@
+ImagesJeu/Tortue/Bouche_A1.png
+ImagesJeu/Tortue/Bouche_A2.png
+ImagesJeu/Tortue/Bouche_A3.png
+ImagesJeu/Tortue/Bouche_A4.png
+ImagesJeu/Tortue/Bouche_P1.png
+ImagesJeu/Tortue/Bouche_P2.png
+ImagesJeu/Tortue/Bouche_P3.png
+ImagesJeu/Tortue/Bouche_P4.png
+ImagesJeu/Tortue/Bouche_C1.png
+ImagesJeu/Tortue/Bouche_C2.png
+ImagesJeu/Tortue/Bouche_C3.png
+ImagesJeu/Tortue/Bouche_Small.png
+ImagesJeu/Tortue/Bouche_Neutre.png

@@ -1,0 +1,2 @@
+ImagesJeu/ongletPara.png
+ImagesJeu/Icones/Slider_Parametres.png
